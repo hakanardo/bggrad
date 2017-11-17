@@ -16,6 +16,6 @@ setup(
     author_email='hakan@debian.org',
     license='MIT',
     setup_requires=["cffi>=1.0.0"],
-    cffi_modules=["build_bggrad.py:ffi"],
+    cffi_modules=["build_bggrad.py:ffi", "build_maxflow.py:ffi"],
     install_requires=["cffi>=1.0.0", "numpy>=1.7.1"],
 )
